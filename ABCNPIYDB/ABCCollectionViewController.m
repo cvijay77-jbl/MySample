@@ -155,7 +155,6 @@ static NSString *ItemIdentifier = @"Cell";
     cell.name.text = [[self.arrayStationDetails objectAtIndex:indexPath.row] objectAtIndex:0];
     cell.headerArray = self.arrayHeaderItems;
     cell.detailArray = [self.arrayStationDetails objectAtIndex:indexPath.row];
-    //refresh the station display
     [cell.detailsTableView reloadData];
     NSLog(@"CELL [%zd] : %@",indexPath.row, cell.detailArray);
     UIColor * altBackgroundColor = [UIColor colorWithWhite:0.9f alpha:1.0f];
