@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-//Test Vijay
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
